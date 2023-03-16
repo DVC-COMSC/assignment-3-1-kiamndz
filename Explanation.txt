@@ -1,0 +1,6 @@
+Explanation
+  This code generates three random numbers between 0 and 100 using the randint function from the random module, assigns them to variables n1, n2, and n3, and then prints these numbers to the console.
+
+  After that, the code uses a series of if-elif-else statements to determine which of the three numbers is the smallest. The logic used here is that if n1 is less than both n2 and n3, then it is the smallest number; otherwise, if n2 is less than both n1 and n3, then it is the smallest number; otherwise, n3 must be the smallest number.
+
+  Finally, the code prints the smallest number to the console using an f-string that incorporates the appropriate variable (n1, n2, or n3) depending on which number was determined to be the smallest.
